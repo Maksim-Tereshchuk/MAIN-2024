@@ -1,0 +1,51 @@
+.container {
+  max-width: 1200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header__top, body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #00641e;
+}
+
+.header__top {
+  margin: 0;
+}

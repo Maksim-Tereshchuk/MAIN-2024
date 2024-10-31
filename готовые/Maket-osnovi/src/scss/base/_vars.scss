@@ -1,0 +1,23 @@
+:root {
+  --font-family-main: "Albert Sans", sans-serif;
+  --font-family-title: "Abril Fatface", serif;
+
+  --container: 1328px;
+  --padding-inline: 15px;
+
+  --color-dark: #303031;
+  --color-gray: #66645e;
+  --color-green: #71a894;
+  --color-white: #ffffff;
+  --color-bg: #f5f5f5;
+  //
+  --font-size-nav: clamp(1rem, 0.94rem + 0.26vw, 1.25rem);
+  --font-size-title: clamp(2.125rem, 1.677rem + 1.94vw, 4rem);
+  --font-size-desc: clamp(1rem, 0.881rem + 0.52vw, 1.5rem);
+  --font-size-subtitle: clamp(1.5rem, 1.142rem + 1.55vw, 3rem);
+  --font-size: clamp(0.875rem, 0.815rem + 0.26vw, 1.125rem);
+
+  --font-size-card: clamp(0.875rem, 0.845rem + 0.13vw, 1rem);
+  //
+  --transition-duration: 0.3s;
+}

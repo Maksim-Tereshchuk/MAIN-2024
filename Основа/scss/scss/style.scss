@@ -1,0 +1,48 @@
+@import "reset";
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+// =======================
+
+$button-red-color: #00641e;
+$fz-h1: 30px;
+
+%bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: $button-red-color;
+  @extend %bg;
+}
+.header {
+  &__top {
+    margin: 0;
+    @extend %bg;
+  }
+}

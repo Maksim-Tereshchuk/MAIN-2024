@@ -1,0 +1,77 @@
+.footer {
+  background-color: #000000;
+  padding: 104px 0;
+  @include tablet {
+    padding: 80px 0;
+  }
+  color: #fff;
+  &__info {
+    max-width: 384px;
+  }
+  &__logo {
+    margin-bottom: 24px;
+  }
+  &__desc {
+    font-size: 14px;
+    line-height: 170%;
+    color: #cfcfcf;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    @include tablet {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.footer__info {
+  @include tablet {
+    margin-bottom: 20px;
+  }
+}
+.footer__services {
+  padding-left: 5px;
+  @include tablet {
+    margin-bottom: 24px;
+  }
+  &-item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  &-item--title {
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 700;
+  }
+  &-link {
+    font-size: 0.875rem;
+    line-height: 32px;
+    color: #cfcfcf;
+    transition: all 0.3s ease;
+    @include hover {
+      color: #505050;
+    }
+  }
+}
+.footer__help {
+  padding-left: 5px;
+
+  &-item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  &-item--title {
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 700;
+  }
+  &-link {
+    font-size: 0.875rem;
+    line-height: 32px;
+    color: #cfcfcf;
+    transition: all 0.3s ease;
+    @include hover {
+      color: #505050;
+    }
+  }
+}

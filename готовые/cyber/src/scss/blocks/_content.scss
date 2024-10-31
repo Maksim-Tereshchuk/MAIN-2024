@@ -1,0 +1,119 @@
+.content {
+  &__inner {
+    display: flex;
+
+    @include desktop {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__item-playstation {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-playstation__info {
+    max-width: 350px;
+  }
+  &__item-playstation__title {
+    font-size: 3.0625rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  &__item-playstation__desc {
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+    font-weight: 500;
+  }
+  //
+  &__item-airpods {
+    width: 360px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+  }
+  &__item-airpods__info {
+    max-width: 170px;
+  }
+  &__item-airpods__title {
+    font-size: 1.8125rem;
+    margin-bottom: 8px;
+    line-height: 40px;
+    font-weight: 200;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__item-airpods__desc {
+    color: #909090;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  //
+  &__item-visionpro {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    background-color: #353535;
+    column-gap: 16px;
+  }
+  &__item-visionpro__info {
+    padding: 64px 0;
+  }
+  &__item-visionpro__title {
+    font-size: 1.8125rem;
+    margin-bottom: 8px;
+    line-height: 40px;
+    font-weight: 200;
+    color: #ededed;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__item-visionpro__desc {
+    color: #909090;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 200px;
+  }
+  //
+  &__item-mac {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background-color: #ededed;
+    max-width: 720px;
+  }
+  &__item-mac__info {
+    max-width: 430px;
+    padding: 204px 0;
+    padding-left: 56px;
+  }
+  &__item-mac__title {
+    font-size: 4rem;
+    line-height: 56px;
+    margin-bottom: 16px;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__item-mac__desc {
+    font-size: 0.875rem;
+    color: #909090;
+    margin-bottom: 16px;
+  }
+  &__item-mac__btn {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    height: 56px;
+    padding-inline: 56px;
+    border: 2px solid #353535;
+  }
+}
+.box-apple {
+  display: flex;
+}

@@ -1,0 +1,30 @@
+.hero {
+  background-image: url("./../../img/hero/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  &__title {
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    max-width: 1163px;
+    text-transform: uppercase;
+    font-family: var(--font-family-title);
+    @include tablet {
+      max-width: 700px;
+    }
+    @include mobile {
+      max-width: 400px;
+    }
+    span {
+      color: var(--color-red);
+    }
+  }
+  &__desc {
+    font-size: var(--font-size-desc);
+    font-weight: 300;
+    color: var(--color-black);
+    margin-bottom: 40px;
+  }
+
+  border-bottom: 1px solid var(--color-gray);
+}

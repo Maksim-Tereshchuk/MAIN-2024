@@ -1,0 +1,16 @@
+.building__link {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  border: 1px solid #eff0f6;
+  box-shadow: 1px 1px 8px 6px rgba(34, 60, 80, 0.13);
+  height: 72px;
+  padding-inline: 38px;
+  @include hover {
+    color: #ffffff;
+    border: none;
+  }
+  @include mobile {
+    padding-inline: 28px;
+    height: 52px;
+  }
+}

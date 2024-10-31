@@ -1,0 +1,68 @@
+.discounts {
+  padding: 80px 0;
+  &__title {
+    font-size: clamp(1rem, 0.885rem + 0.51vw, 1.5rem);
+    font-weight: 600;
+    margin-bottom: 32px;
+    line-height: 32px;
+  }
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+
+      grid-gap: 16px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 16px;
+    }
+  }
+  &__item {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 24px 16px;
+    border-radius: 10px;
+  }
+  &__item-follow {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 16px;
+  }
+  &__item-img {
+    margin-bottom: 16px;
+  }
+  &__item-info {
+    margin-bottom: 24px;
+  }
+  &__item-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  &__item-price {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  &__item-link {
+    display: inline-flex;
+    align-items: center;
+    height: 48px;
+    padding-inline: 64px;
+    background-color: #000;
+    color: #f6f6f6;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    @include hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.collection {
+  &__title {
+    font-size: var(--font-size-subtitle);
+    font-weight: 600;
+    line-height: var(--line-height-s);
+    color: var(--color-black);
+    @include mobile {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  }
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    @include mobile {
+      column-gap: 10px;
+    }
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    justify-content: space-between;
+    @include mobile {
+      row-gap: 24px;
+    }
+  }
+}

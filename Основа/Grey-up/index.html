@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./css/_normalize.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo"
+            ><img
+              src="./images/LogoBlack.png"
+              alt=""
+              width="52"
+              height="52"
+              class="header__logo-img"
+          /></a>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#about" class="header__menu-link">About Us</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#works" class="header__menu-link">How it work</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="/" class="header__menu-link">Pricing</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="/" class="header__menu-link">FAQs</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__user">
+            <a href="/" class="header__button button">Login</a>
+            <a href="/" class="header__button-black button">Sign Up</a>
+          </div>
+          <div class="burger__menu">
+            <button class="button__burger-menu burger-button" type="button" onclick="mobileOverlay.showModal()"></button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="hero container">
+        <div class="hero__inner">
+          <div class="hero__top">
+            <h1 class="hero__title">
+              Always Track & Analyze Your Business Statistics To Succeed.
+            </h1>
+            <div class="hero__desc">
+              <p>
+                A better way to manage your sales, team, clients & marketing —
+                on a single platform. Powerful, affordable & easy.
+              </p>
+            </div>
+            <form action="" class="hero__form">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="hero__form-input"
+              />
+              <button class="hero__button button" type="submit">
+                Get started
+              </button>
+            </form>
+            <div class="hero__card">
+              <img
+                src="./images/icon/m_visa.svg"
+                alt=""
+                class="hero__pay"
+                width="86 "
+                height="40"
+              />
+              <img
+                src="./images/icon/m_mastercard.svg"
+                alt=""
+                class="hero__pay"
+                width="60 "
+                height="40"
+              />
+              <img
+                src="./images/icon/m_paypall.svg"
+                alt=""
+                class="hero__pay"
+                width="120 "
+                height="40"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__inner">
+            <img
+              src="./images/Asset 8.svg"
+              alt=""
+              class="about__images"
+              width="536"
+              height="491"
+            />
+            <div class="about__content">
+              <h4 class="about__subtitle subtitle">About us</h4>
+              <h3 class="about__title title">
+                Faster, friendlier feedback loops make life easier.
+              </h3>
+              <div class="about__desc">
+                <p>
+                  Add a Viewer to your team so they can see everything you
+                  share, or invite people to individual documents. It’s up to
+                  you. Stakeholders can check out designs in their web browser,
+                  test prototypes and leave feedback for free.
+                </p>
+              </div>
+              <ul class="about__list">
+                <li class="about__item">
+                  <span class="about__item-type"></span>
+                  <p>Shared Cloud Libraries, for a single source of truth</p>
+                </li>
+                <li class="about__item">
+                  <span class="about__item-type"></span>
+                  <p>Prototype previews for user testing and research</p>
+                </li>
+                <li class="about__item">
+                  <span class="about__item-type"></span>
+                  <p>Easy organization with projects</p>
+                </li>
+                <li class="about__item">
+                  <span class="about__item-type"></span>
+                  <p>Free developer handoff, right inside the browser</p>
+                </li>
+                <li class="about__item">
+                  <span class="about__item-type"></span>
+                  <p>Two-factor authentication and SSO</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="works">
+        <div class="container">
+          <div class="works__inner">
+            <div class="works__content">
+              <h4 class="works__subtitle subtitle">How it works</h4>
+              <h3 class="works__title title">
+                Building the best space for collaboration.
+              </h3>
+              <ul class="works__info">
+                <li class="works__info-item">
+                  <img
+                    src="./images/icon/icon-1.svg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                  <div class="works__text">
+                    <h4 class="works__info-title">Shared Cloud Libraries</h4>
+                    <div class="works__info-desc">
+                      <p>
+                        Navigate to the Your work panel in the left sidebar.
+                        Select the library you want to share. Select the Share
+                        icon in the upper right to share the library.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="works__info-item">
+                  <img
+                    src="./images/icon/icon-2.svg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                  <div class="works__text">
+                    <h4 class="works__info-title">
+                      Free developer handoff, right inside
+                    </h4>
+                    <div class="works__info-desc">
+                      <p>
+                        Cloud Inspector makes it easy for developers to get the
+                        information they need to turn pixels into code — all in
+                        the browser and, most importantly, for free.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="works__info-item">
+                  <img
+                    src="./images/icon/icon-3.svg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                  <div class="works__text">
+                    <h4 class="works__info-title">
+                      Real-time collaborative editing
+                    </h4>
+                    <div class="works__info-desc">
+                      <p>
+                        Room Service helps you build real-time collaborative
+                        features. Add real-time data sync! Let users edit the
+                        same data at the same time.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="works__info-item">
+                  <img
+                    src="./images/icon/icon-4.svg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                  <div class="works__text">
+                    <h4 class="works__info-title">
+                      Integrations with the Cloud API
+                    </h4>
+                    <div class="works__info-desc">
+                      <p>
+                        Unlocking that value requires an iPaaS that delivers the
+                        transformative power of APIs and integration.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <img
+              src="./images/Illustration_3.svg"
+              alt=""
+              class="works__images"
+              width="490"
+              height="700"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing__inner">
+            <div class="pricing__top">
+              <img src="./images/icon/Illustrations_4.png" alt="" width="470" height="500">
+              <div class="pricing__text">
+                <h4 class="pricing__subtitle subtitle">Pricing</h4>
+                <h3 class="pricing__title title">Select a membership level
+                  the right price for you.</h3>
+                  <div class="pricing__desc">
+                    <p>Prices listed in USD. Taxes may apply. <br> By using program you agree to our terms and policies.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="pricing__card">
+              
+            </div>
+        </div>
+      </section>
+    </main>
+    <dialog id="mobileOverlay" class="mobile-overlay" >
+      <form action="" class="mobile-overlay__close-button-wrapper" method="dialog">
+        <button class="mobile-overlay__close-button cross-button" type="submit">
+          
+        </button>
+      </form>
+      <div class="mobile-overlay__body">
+        <ul class="mobile-overlay__list">
+          <li class="mobile-overlay__item"><a href="#about" class="mobile-overlay__link">About Us</a></li>
+          <li class="mobile-overlay__item"><a href="#works" class="mobile-overlay__link">How it work</a></li>
+          <li class="mobile-overlay__item"><a href="" class="mobile-overlay__link">Pricing</a></li>
+          <li class="mobile-overlay__item"><a href="" class="mobile-overlay__link">FAQs</a></li>
+        </ul>
+        <div class="mobile-overlay__button">
+          <a href="" class="button mobile-overlay__button-link">Login</a>
+          <a href="" class="button mobile-overlay__button-link">Sign Up</a>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

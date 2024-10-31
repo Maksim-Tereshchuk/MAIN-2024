@@ -1,0 +1,44 @@
+.collection {
+  &__menu-item {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 16px;
+    padding: 24px 16px 24px 16px;
+  }
+  &__menu-follow {
+    display: flex;
+    justify-content: end;
+  }
+  &__menu-img {
+    display: inline !important;
+  }
+  &__menu-buy {
+    &--link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: s;
+      height: 48px;
+      padding-inline: 64px;
+      background-color: black;
+      color: #ffffff;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      @include hover {
+        background-color: #797979;
+      }
+    }
+  }
+  &__menu-price {
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  &__menu-title {
+    margin-bottom: 16px;
+  }
+}

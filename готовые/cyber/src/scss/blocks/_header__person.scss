@@ -1,0 +1,10 @@
+.header__person {
+  &-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    @include tablet {
+      column-gap: 16px;
+    }
+  }
+}

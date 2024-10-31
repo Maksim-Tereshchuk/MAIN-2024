@@ -1,0 +1,33 @@
+.works {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 55px;
+    @include tablet {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+    }
+  }
+  &__content-item {
+    max-width: 374px;
+  }
+  &__svg {
+    margin-bottom: 40px;
+  }
+  &__content-subtext {
+    color: var(--color-blue);
+    font-size: clamp(1.188rem, 1.058rem + 0.58vw, 1.75rem);
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  &__content-subdesc {
+    font-size: var(--font-size-subtitle);
+    color: var(--color-gray);
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(39, 39, 39);
+}
+
+body {
+  font-family: var(--font-family);
+  text-wrap: balance;
+  font-size: var(--font-size-main);
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: var(--link-color);
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+code {
+  background-color: #e9f1f6;
+  padding: 0.2rem;
+  border-radius: 4px;
+}
+
+pre.code {
+  overflow-x: auto;
+  background-color: #e9f1f6;
+  padding: 1rem;
+  border-radius: 4px;
+}
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@mixin visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+@mixin square($size) {
+  width: $size;
+  aspect-ratio: 1;
+}
+@mixin reset-button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}

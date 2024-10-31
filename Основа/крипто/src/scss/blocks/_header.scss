@@ -1,0 +1,18 @@
+.header {
+  border-bottom: 1px solid var(--color-gray);
+  &__logo {
+    padding-right: 120px;
+    @include tablet {
+      padding-right: 60px;
+    }
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 103px;
+    @include tablet {
+      height: 60px;
+    }
+  }
+}

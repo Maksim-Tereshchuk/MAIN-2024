@@ -1,0 +1,17 @@
+.hero__banner {
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include mobile-s {
+      grid-template-columns: repeat(1, auto);
+    }
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+  }
+}

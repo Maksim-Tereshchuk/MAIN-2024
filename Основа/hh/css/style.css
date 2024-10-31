@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* transition: all 2s; */
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* ========== */
+.header {
+  background-image: url(../img/фон.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container {
+  max-width: 1200px;
+  padding: 34px 10px;
+  margin: 0 auto;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 166px;
+}
+.nav__menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav__item a {
+  color: aliceblue;
+  font-size: 24px;
+}
+/* ========================== */
+
+.item {
+  text-align: center;
+}
+.title {
+  font-size: 96px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.desc {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #965000;
+  border: 3px solid bisque;
+}

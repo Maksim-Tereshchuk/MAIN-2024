@@ -1,0 +1,24 @@
+$color-gray: #3b3b3b;
+$color-gray-subtitle: #858584;
+$color-main: #ffffff;
+$color-purple: #a259ff;
+
+$border-color-purple: 2px solid #a259ff;
+
+$font-size-title: 38px;
+$font-size-subtitle: 22px;
+
+%title-content {
+  font-size: $font-size-title;
+  font-weight: 600;
+  line-height: 120%;
+  color: $color-main;
+}
+%title-content-desc {
+  font-size: $font-size-subtitle;
+  color: $color-main;
+  line-height: 160%;
+}
+%border-radius {
+  border-radius: 25px;
+}

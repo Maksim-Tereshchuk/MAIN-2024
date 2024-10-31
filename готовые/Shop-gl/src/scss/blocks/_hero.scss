@@ -1,0 +1,42 @@
+.hero {
+  min-height: 600px;
+  padding-bottom: 103px;
+  background-image: url("./../../img/hero/hero.jpg");
+  background-position: 24% top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include mediaBg() {
+    background-image: url("./../../img/hero/hero@2x.jpg");
+  }
+  @include mobile {
+    min-height: 551px;
+    padding-bottom: 16px;
+  }
+
+  &__inner {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    row-gap: 27px;
+    @include mobile {
+      row-gap: 32px;
+    }
+  }
+  &__title {
+    max-width: 494px;
+    font-size: var(--font-size-title);
+    color: var(--color-black);
+    line-height: var(--line-height-t);
+    font-weight: 500;
+    font-style: italic;
+    @include tablet {
+      font-size: var(--font-size-title);
+    }
+    @include mobile {
+      max-width: 168px;
+      font-size: 1.25rem;
+    }
+  }
+}

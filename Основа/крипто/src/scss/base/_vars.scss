@@ -1,0 +1,22 @@
+:root {
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-title: "Roboto Condensed", sans-serif;
+
+  --font-size-title: clamp(1.75rem, 0.308rem + 6.41vw, 8rem);
+  --font-size: clamp(0.875rem, 0.731rem + 0.64vw, 1.5rem);
+  --font-size-btn: clamp(0.875rem, 0.788rem + 0.38vw, 1.25rem);
+  --font-size-nav: clamp(0.875rem, 0.788rem + 0.38vw, 1.25rem);
+  --font-size-desc: clamp(0.875rem, 0.615rem + 1.15vw, 2rem);
+  //
+  --padding-inline: 25px;
+
+  --border-radius: 6px;
+  --transition-duration-body: 0.3s;
+  --transition-duration: 0.3s;
+
+  --color-gray: #c2c2c2;
+  --color-black: #000000;
+  --color-red: #f5333f;
+  --color-black-light: #212121;
+  --color-white: #ffffff;
+}

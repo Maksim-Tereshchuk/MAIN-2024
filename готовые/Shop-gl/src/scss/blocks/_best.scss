@@ -1,0 +1,31 @@
+.best {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    @include mobile {
+      margin-bottom: 8px;
+    }
+  }
+  &__title {
+    font-size: var(--font-size-subtitle);
+    font-weight: 600;
+    line-height: var(--line-height-s);
+    color: var(--color-black);
+    @include mobile {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+  &__view {
+    color: var(--color-green-line);
+    line-height: var(--line-heigh);
+    @include hover {
+      color: var(--color-black);
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+}

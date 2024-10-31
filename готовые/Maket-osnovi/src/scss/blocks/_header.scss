@@ -1,0 +1,13 @@
+.header {
+  padding-top: 40px;
+  &__logo {
+    margin-right: 20px;
+    position: relative;
+    z-index: 100;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

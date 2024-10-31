@@ -1,0 +1,15 @@
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  background-color: rgb(39, 39, 39);
+}
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}

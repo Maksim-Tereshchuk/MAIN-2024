@@ -1,0 +1,20 @@
+.container {
+  max-width: 1230px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container-main {
+  max-width: 1070px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Work Sans";
+  overflow-x: hidden;
+  background-color: #2b2b2b;
+  color: $color-main;
+}
+img {
+  max-width: 100%;
+  display: block;
+}

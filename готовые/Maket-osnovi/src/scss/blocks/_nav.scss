@@ -1,0 +1,38 @@
+.header__menu {
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    @include tablet {
+      column-gap: 20px;
+    }
+  }
+  &-item {
+    font-size: var(--font-size-nav);
+    font-weight: 500;
+  }
+
+  &-link {
+    color: var(--color-dark);
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -10px;
+      height: 3px;
+      width: 0;
+      background-color: var(--color-green);
+      transition-duration: 0.3s;
+    }
+    &:hover {
+      color: var(--color-green);
+    }
+    &:hover::after {
+      width: 100%;
+    }
+    &--button {
+      color: var(--color-green);
+    }
+  }
+}

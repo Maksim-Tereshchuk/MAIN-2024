@@ -1,0 +1,26 @@
+.collection-card {
+  position: relative;
+  &__btn {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-inline: 65px;
+    background-color: var(--page-bg);
+    color: var(--color-black);
+    transition: all 0.3s;
+    @include hover {
+      box-shadow: 7px -6px 7px 0px rgba(34, 60, 80, 0.2) inset;
+    }
+    @include mobile {
+      padding-inline: 40px;
+    }
+  }
+  &__link {
+    position: absolute;
+    right: 27px;
+    bottom: 16px;
+    @include mobile {
+      position: static;
+    }
+  }
+}

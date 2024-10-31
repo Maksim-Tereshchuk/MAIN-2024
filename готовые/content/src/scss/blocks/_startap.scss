@@ -1,0 +1,51 @@
+.startap {
+  background-color: var(--color-white);
+  padding-block: 140px;
+  @include tablet {
+    padding-block: 80px;
+  }
+  &__title {
+    font-size: var(--font-size-text);
+    font-weight: 700;
+    text-align: center;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    @include tablet {
+      row-gap: 32px;
+    }
+  }
+  &__item {
+    max-width: 266px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-cart);
+    border-radius: 10px;
+    @include mobile {
+      height: 70px;
+    }
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 32px;
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 15px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 15px;
+    }
+  }
+  &__img {
+    @include tablet {
+      max-width: 60%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a,
+button,
+input,
+svg {
+  transition-duration: var(--transition-duration);
+}
+button {
+  background-color: transparent;
+  border: none;
+}

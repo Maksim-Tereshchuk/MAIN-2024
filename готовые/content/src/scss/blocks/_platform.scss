@@ -1,0 +1,53 @@
+.platform {
+  background-color: var(--color-cart);
+  &__section {
+    padding-block: 140px;
+    @include mobile {
+      padding-block: 80px;
+    }
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 80px;
+    @include mobile {
+      row-gap: 32px;
+    }
+  }
+  &__titel {
+    font-size: var(--font-size-text);
+    text-align: center;
+    font-weight: 700;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    @include mobile {
+      row-gap: 16px;
+    }
+  }
+  &__swiper-img {
+    @include tablet {
+      max-width: 70%;
+      height: auto;
+    }
+  }
+  &__button {
+    padding-inline: 32px;
+    background-color: var(--color-dark);
+    height: 57px;
+    display: inline-flex;
+    align-items: center;
+    margin-inline: auto;
+    border-radius: 40px;
+    font-weight: 700;
+    color: var(--color-white);
+    @include hover {
+      background-color: var(--color-bg);
+      color: var(--color-dark);
+    }
+  }
+}

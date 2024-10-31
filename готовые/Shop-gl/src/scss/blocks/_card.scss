@@ -1,0 +1,93 @@
+.card {
+  position: relative;
+}
+.card__fav-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 2;
+  @include mobile {
+    top: 8px;
+    right: 8px;
+  }
+}
+.card__btn-card {
+  .icon--card {
+    @include hover {
+      stroke: #c30000;
+    }
+  }
+
+  &--selected .icon--card {
+    fill: #c30000;
+    stroke: #c30000;
+  }
+}
+.card__body {
+  padding: 5.5px 8px;
+  display: grid;
+  row-gap: 8px;
+}
+.card__title {
+  font-size: var(--font-size);
+  font-weight: bold;
+  a {
+    color: var(--color-black);
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+.card__cols {
+  display: flex;
+  justify-content: space-between;
+}
+.card__desc {
+  font-size: var(--font-size);
+  line-height: var(--line-height-t);
+}
+.card__price {
+  font-weight: bold;
+}
+.card__colors {
+  z-index: 2;
+  display: flex;
+  column-gap: 8px;
+}
+.color {
+  width: 24px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  @include hover {
+    box-shadow: 0px -1px 10px 2px rgba(0, 0, 0, 0.3);
+  }
+  @include mobile {
+    width: 16px;
+    aspect-ratio: 1;
+  }
+}
+.color--black {
+  background-color: var(--color-black);
+}
+.color--blue {
+  background-color: var(--color-blue);
+}
+.color--green {
+  background-color: var(--color-green-line);
+}
+.color--navy {
+  background-color: var(--color-navy);
+}
+.color--olive {
+  background-color: #909225;
+}
+.color--pink {
+  background-color: #d0a5ea;
+}

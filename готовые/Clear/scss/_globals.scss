@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto";
+  transition-duration: var(--transition-duration);
+  overflow-x: hidden;
+}
+.container {
+  max-width: calc(var(--container) + var(--padding) * 2);
+  margin-inline: auto;
+  padding-inline: var(--padding);
+}
+.hidden-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+.hidden-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+.visible-mobile {
+  @include mobile-above {
+    display: none !important;
+  }
+}
+
+.visible-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}

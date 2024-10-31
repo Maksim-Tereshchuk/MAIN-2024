@@ -1,0 +1,74 @@
+.hero {
+  background: rgb(33, 28, 36);
+  background: radial-gradient(
+    circle,
+    rgba(33, 28, 36, 1) 0%,
+    rgba(33, 28, 36, 1) 100%
+  );
+  height: 632px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    @include tablet--img {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  &__img {
+    @include tablet--img {
+      display: none;
+    }
+  }
+  &__text {
+    padding-top: 188px;
+    display: flex;
+    flex-direction: column;
+    max-width: 714px;
+    row-gap: 24px;
+  }
+  &__subtitle {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    line-height: 1.28;
+    color: #fff;
+    opacity: 0.4;
+  }
+  &__title {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 100;
+    font-size: clamp(3.125rem, 2.462rem + 2.95vw, 6rem);
+    line-height: 0.75;
+    letter-spacing: -0.01em;
+    color: #fff;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__desc {
+    font-family: "SF Pro Display", sans-serif;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #909090;
+    p {
+      margin-bottom: 24px;
+    }
+  }
+  &__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 54px;
+    padding-inline: 56px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    @include hover {
+      background-color: #000;
+      border: 1px solid #000;
+    }
+  }
+}

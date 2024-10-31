@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("../fonts/Heebo-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("../fonts/Heebo-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yantramanav";
+  src: url("../fonts/Yantramanav-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-dark-gray: #404040;
+  --color-light-gray: #c4c4c4;
+  --color-dark-aleternate: #131619;
+  --border-radius: 30px;
+  --border: 1px solid var(--color-light);
+
+  --font-family-base: "Heebo";
+  --font-family-accent: "Yantramanav";
+
+  --input-h: 54px;
+
+  --container-w: 1300px;
+  --container-p-x: 15px;
+  --transition-duration: 0.3s;
+}
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-light-gray);
+  background-color: var(--color-dark);
+  line-height: 1.75;
+}
+
+.container {
+  max-width: calc(var(--container-w) + var(--container-p-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-p-x);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: var(--color-light);
+  list-style-type: none;
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ============================================================ */
+.header__logo {
+  flex-shrink: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  background-color: #131619;
+  padding-inline: 32px;
+}
+.header__menu-list {
+  display: flex;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.header__menu-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  position: relative;
+  height: 90px;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 7px;
+}
+.header__menu-link:hover {
+  color: var(--color-dark-gray);
+}
+.header__menu-link.is-current::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.header__actions {
+  display: flex;
+  column-gap: 40px;
+}
+.button {
+  display: inline-flex;
+  height: 38px;
+  align-items: center;
+  padding-inline: 26px;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-weight: 700;
+  border-radius: var(--border-radius);
+  letter-spacing: 1.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-light-gray);
+}
+.header__burger-btn {
+  position: relative;
+  flex-direction: column;
+  display: inline-flex;
+  justify-content: center;
+  row-gap: 4px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding-left: 8px;
+}
+.header__burger-btn--line {
+  display: flex;
+  width: 6px;
+  height: 1px;
+  background-color: var(--color-light);
+  box-shadow: 16px 0 0 var(--color-light);
+}
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 20px;
+    padding-inline: 15px;
+  }
+  .header__menu {
+    order: 1;
+    flex-basis: 100%;
+  }
+  .header__menu-link {
+    height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding-top: 10px;
+  }
+  .header__menu-list {
+    column-gap: 24px;
+  }
+  .header__menu-link {
+    height: 32px;
+  }
+  .header__actions {
+    column-gap: 15px;
+  }
+  .button {
+    padding-inline: 18px;
+  }
+}
+.banner {
+  padding: 36px 70px;
+  min-height: 985px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}

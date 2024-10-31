@@ -1,0 +1,45 @@
+.bigsale {
+  background-image: url("./../../img/bigsale/Banner\ 2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 448px;
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
+  &__text {
+    padding: 159px 0 89px;
+    text-align: center;
+  }
+  &__title {
+    font-size: clamp(3.125rem, 2.808rem + 1.41vw, 4.5rem);
+    list-style: 72px;
+    letter-spacing: -1px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 8px;
+    span {
+      font-weight: 600;
+    }
+  }
+  &__desc {
+    font-size: 1rem;
+    list-style: 32px;
+    color: #787878;
+    margin-bottom: 40px;
+  }
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    height: 56px;
+    padding-inline: 56px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    @include hover {
+      background-color: black;
+    }
+  }
+}

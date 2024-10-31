@@ -1,0 +1,7 @@
+.logo {
+  @include tablet {
+    svg {
+      width: 150px;
+    }
+  }
+}

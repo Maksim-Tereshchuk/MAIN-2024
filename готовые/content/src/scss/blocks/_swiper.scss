@@ -1,0 +1,11 @@
+.platform__swiper-card {
+  padding: 32px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  @include hover {
+    background-color: var(--color-bg);
+  }
+  @include mobile {
+    padding: 16px;
+  }
+}

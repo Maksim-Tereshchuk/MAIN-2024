@@ -1,0 +1,9 @@
+.help__section {
+  padding-block: 100px;
+  @include tablet {
+    padding-block: 50px;
+  }
+  @include mobile {
+    padding-block: 30px;
+  }
+}

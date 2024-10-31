@@ -1,0 +1,17 @@
+.header {
+  padding-top: 40px;
+  @include mobile {
+    padding-top: 20px;
+  }
+  &__logo {
+    margin-right: 10px;
+  }
+  &__button {
+    margin-left: 10px;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

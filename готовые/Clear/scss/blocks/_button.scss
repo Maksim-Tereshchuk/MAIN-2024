@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  color: var(--color-white);
+  padding-inline: var(--padding-inline);
+  background-color: var(--color-button);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  @include hover {
+    background-color: var(--color-blue);
+  }
+}

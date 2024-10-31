@@ -1,0 +1,16 @@
+.text {
+  background-color: var(--color-white);
+  &__section {
+    padding-block: 140px;
+    @include mobile {
+      padding-block: 80px;
+    }
+  }
+  &__title {
+    font-size: var(--font-size-text);
+    font-weight: 700;
+    span {
+      color: var(--color-gray-light);
+    }
+  }
+}

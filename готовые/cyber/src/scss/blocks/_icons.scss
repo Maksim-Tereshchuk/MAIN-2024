@@ -1,0 +1,46 @@
+.icons-wrapper {
+  padding: 30px 0;
+  display: flex;
+  column-gap: 30px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.icon--Logo {
+  fill: #000;
+}
+.icon--Logo-W {
+  fill: #ffffff;
+}
+.icon--Favorites {
+  stroke: #000;
+  fill: transparent;
+}
+.icon--Cart {
+  stroke: #000;
+  fill: transparent;
+}
+.icon--User {
+  stroke: #000;
+  fill: transparent;
+}
+.category__icon {
+  stroke: #000;
+  width: 48px;
+  height: 48px;
+  fill: transparent;
+}
+.icon--Like {
+  stroke: #000000;
+  fill: white;
+  transition: all 0.3s;
+  @include hover {
+    stroke: red;
+  }
+}
+.active-like {
+  fill: #fa0000;
+}

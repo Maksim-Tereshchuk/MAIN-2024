@@ -1,0 +1,51 @@
+.help {
+  background-image: url("./../../img/help/help-bg.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid var(--color-gray);
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    background-color: var(--color-black-light);
+    padding: 100px 80px;
+    border-radius: 25px;
+    @include tablet {
+      flex-direction: column;
+      row-gap: 20px;
+      padding: 50px 40px;
+    }
+    @include mobile {
+      padding: 25px 20px;
+    }
+  }
+  &__text-title {
+    font-size: var(--font-size-title);
+    font-weight: bold;
+    font-family: var(--font-family-title);
+    text-transform: uppercase;
+    max-width: 831px;
+    color: var(--color-white);
+    span {
+      color: var(--color-red);
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: var(--color-white);
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  &__block-red {
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    background-color: var(--color-red);
+  }
+}

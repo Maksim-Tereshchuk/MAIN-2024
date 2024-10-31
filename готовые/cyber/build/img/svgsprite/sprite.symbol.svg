@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 32 32" id="Arrow" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.3333 27.6667C21.0678 27.6679 20.8131 27.5622 20.6266 27.3733L9.95993 16.7067C9.57 16.3162 9.57 15.6838 9.95993 15.2933L20.6266 4.62667C21.0206 4.25952 21.6346 4.27035 22.0154 4.65117C22.3962 5.03199 22.4071 5.64599 22.0399 6.04L12.0799 16L22.0399 25.96C22.4299 26.3504 22.4299 26.9829 22.0399 27.3733C21.8534 27.5622 21.5987 27.6679 21.3333 27.6667Z"/>
+</symbol><symbol viewBox="0 0 32 32" id="Arrow-r" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.6667 4.33333C10.9322 4.33208 11.1869 4.43782 11.3734 4.62667L22.0401 15.2933C22.43 15.6838 22.43 16.3162 22.0401 16.7067L11.3734 27.3733C10.9794 27.7405 10.3654 27.7296 9.98457 27.3488C9.60375 26.968 9.59292 26.354 9.96007 25.96L19.9201 16L9.96007 6.04C9.57013 5.64958 9.57013 5.01709 9.96007 4.62667C10.1466 4.43782 10.4013 4.33208 10.6667 4.33333Z"/>
+</symbol><symbol viewBox="0 0 48 48" id="Cameras" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#cclip0_1_1271)">
+        <path d="M10 14H12C13.0609 14 14.0783 13.5786 14.8284 12.8284C15.5786 12.0783 16 11.0609 16 10C16 9.46957 16.2107 8.96086 16.5858 8.58579C16.9609 8.21071 17.4696 8 18 8H30C30.5304 8 31.0391 8.21071 31.4142 8.58579C31.7893 8.96086 32 9.46957 32 10C32 11.0609 32.4214 12.0783 33.1716 12.8284C33.9217 13.5786 34.9391 14 36 14H38C39.0609 14 40.0783 14.4214 40.8284 15.1716C41.5786 15.9217 42 16.9391 42 18V36C42 37.0609 41.5786 38.0783 40.8284 38.8284C40.0783 39.5786 39.0609 40 38 40H10C8.93913 40 7.92172 39.5786 7.17157 38.8284C6.42143 38.0783 6 37.0609 6 36V18C6 16.9391 6.42143 15.9217 7.17157 15.1716C7.92172 14.4214 8.93913 14 10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 32C27.3137 32 30 29.3137 30 26C30 22.6863 27.3137 20 24 20C20.6863 20 18 22.6863 18 26C18 29.3137 20.6863 32 24 32Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+        <clipPath id="cclip0_1_1271">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 32 32" id="Cart" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3 5H7L10 22H26M10 16.6667H25.59C25.7056 16.6667 25.8177 16.6267 25.9072 16.5535C25.9966 16.4802 26.0579 16.3782 26.0806 16.2648L27.8806 7.26479C27.8951 7.19222 27.8934 7.11733 27.8755 7.04552C27.8575 6.97372 27.8239 6.90679 27.7769 6.84956C27.73 6.79234 27.6709 6.74625 27.604 6.71462C27.5371 6.68299 27.464 6.66662 27.39 6.66667H8M12 26C12 26.5523 11.5523 27 11 27C10.4477 27 10 26.5523 10 26C10 25.4477 10.4477 25 11 25C11.5523 25 12 25.4477 12 26ZM26 26C26 26.5523 25.5523 27 25 27C24.4477 27 24 26.5523 24 26C24 25.4477 24.4477 25 25 25C25.5523 25 26 25.4477 26 26Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol><symbol viewBox="0 0 48 48" id="Computers" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#eclip0_1_1277)">
+        <path d="M40 8H8C6.89543 8 6 8.89543 6 10V30C6 31.1046 6.89543 32 8 32H40C41.1046 32 42 31.1046 42 30V10C42 8.89543 41.1046 8 40 8Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 40H34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 32V40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 32V40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6.85693 27.4286H41.1426" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <defs>
+        <clipPath id="eclip0_1_1277">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 32 32" id="Favorites" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11 7C8.239 7 6 9.216 6 11.95C6 14.157 6.875 19.395 15.488 24.69C15.6423 24.7839 15.8194 24.8335 16 24.8335C16.1806 24.8335 16.3577 24.7839 16.512 24.69C25.125 19.395 26 14.157 26 11.95C26 9.216 23.761 7 21 7C18.239 7 16 10 16 10C16 10 13.761 7 11 7Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol><symbol viewBox="0 0 48 48" id="Gaming" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#gclip0_1_1280)">
+        <path d="M40 12H8C5.79086 12 4 13.7909 4 16V32C4 34.2091 5.79086 36 8 36H40C42.2091 36 44 34.2091 44 32V16C44 13.7909 42.2091 12 40 12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 24H20M16 20V28" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 22V22.0207" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M36 25.9999V26.0207" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+        <clipPath id="gclip0_1_1280">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 48 48" id="Headphones" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#hclip0_1_1274)">
+        <path d="M14 26H12C9.79086 26 8 27.7909 8 30V36C8 38.2091 9.79086 40 12 40H14C16.2091 40 18 38.2091 18 36V30C18 27.7909 16.2091 26 14 26Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M36 26H34C31.7909 26 30 27.7909 30 30V36C30 38.2091 31.7909 40 34 40H36C38.2091 40 40 38.2091 40 36V30C40 27.7909 38.2091 26 36 26Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 30V24C8 19.7565 9.68571 15.6869 12.6863 12.6863C15.6869 9.68571 19.7565 8 24 8C28.2435 8 32.3131 9.68571 35.3137 12.6863C38.3143 15.6869 40 19.7565 40 24V30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+        <clipPath id="hclip0_1_1274">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 32 32" id="Like" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5.93439 18.5443L15.3155 27.3568C15.6399 27.6616 15.8021 27.814 16.0002 27.814C16.1982 27.814 16.3604 27.6616 16.6848 27.3568L26.0659 18.5443C28.6742 16.0941 28.9909 12.0621 26.7972 9.23474L26.3848 8.7031C23.7605 5.32075 18.493 5.888 16.6491 9.75151C16.3886 10.2973 15.6117 10.2973 15.3513 9.75151C13.5073 5.888 8.23979 5.32075 5.61556 8.7031L5.20308 9.23474C3.00943 12.0621 3.32616 16.0941 5.93439 18.5443Z" stroke-opacity="0.77" stroke-width="1.4"/>
+</symbol><symbol viewBox="0 0 48 48" id="Phones" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#jclip0_1_1265)">
+        <path d="M33.375 5.25H14.625C13.3306 5.25 12.2812 6.29933 12.2812 7.59375V40.4062C12.2812 41.7007 13.3306 42.75 14.625 42.75H33.375C34.6694 42.75 35.7188 41.7007 35.7188 40.4062V7.59375C35.7188 6.29933 34.6694 5.25 33.375 5.25Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 6H26.6875" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 37.7188V37.7404" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="13" y1="34" x2="35" y2="34" stroke-width="2"/>
+    </g>
+    <defs>
+        <clipPath id="jclip0_1_1265">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 25 24" id="Search" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20.9331 20L17.1554 16.2156M19.2489 11.1579C19.2489 13.0563 18.4948 14.8769 17.1524 16.2193C15.81 17.5617 13.9894 18.3158 12.091 18.3158C10.1926 18.3158 8.37197 17.5617 7.0296 16.2193C5.68724 14.8769 4.93311 13.0563 4.93311 11.1579C4.93311 9.2595 5.68724 7.43886 7.0296 6.0965C8.37197 4.75413 10.1926 4 12.091 4C13.9894 4 15.81 4.75413 17.1524 6.0965C18.4948 7.43886 19.2489 9.2595 19.2489 11.1579V11.1579Z" stroke-width="1.5" stroke-linecap="round"/>
+</symbol><symbol viewBox="0 0 48 48" id="SmartWatches" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#lclip0_1_1268)">
+        <path d="M30 12H18C14.6863 12 12 14.6863 12 18V30C12 33.3137 14.6863 36 18 36H30C33.3137 36 36 33.3137 36 30V18C36 14.6863 33.3137 12 30 12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 36V42H30V36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 12V6H30V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="20.7144" y1="18" x2="20.7144" y2="29" stroke-width="2" stroke-linecap="round"/>
+        <line x1="24.7144" y1="23" x2="24.7144" y2="29" stroke-width="2" stroke-linecap="round"/>
+        <line x1="28.7144" y1="21" x2="28.7144" y2="29" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <defs>
+        <clipPath id="lclip0_1_1268">
+            <rect width="48" height="48"/>
+        </clipPath>
+    </defs>
+</symbol><symbol viewBox="0 0 32 32" id="User" xmlns="http://www.w3.org/2000/svg">
+    <path d="M24 27V24.3333C24 22.9188 23.5224 21.5623 22.6722 20.5621C21.8221 19.5619 20.669 19 19.4667 19H11.5333C10.331 19 9.17795 19.5619 8.32778 20.5621C7.47762 21.5623 7 22.9188 7 24.3333V27M21 9.5C21 11.9853 18.9853 14 16.5 14C14.0147 14 12 11.9853 12 9.5C12 7.01472 14.0147 5 16.5 5C18.9853 5 21 7.01472 21 9.5Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol></svg>

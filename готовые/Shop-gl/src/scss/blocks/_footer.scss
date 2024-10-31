@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding: 24px 0;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 88px;
+  @include mobile {
+    margin-top: 24px;
+    padding: 8px 0;
+  }
+  @media (max-width: 1200px) {
+    font-size: 26px;
+  }
+  &__copy {
+    font-size: 12px;
+    line-height: var(--line-height-t);
+    font-weight: 300;
+  }
+}
+
+.footer__copyright {
+  padding: 10px 0;
+  font-size: 16px;
+}

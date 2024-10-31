@@ -1,0 +1,20 @@
+.header__burger {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  span {
+    width: 27px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    left: 1px;
+  }
+}
+.header__burger span:nth-child(1) {
+  transform: translateY(-6px);
+}
+.header__burger span:nth-child(3) {
+  transform: translateY(6px);
+}

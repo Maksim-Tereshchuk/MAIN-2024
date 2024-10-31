@@ -1,0 +1,47 @@
+.hero {
+  &__section {
+    padding-block: 80px;
+    @include mobile {
+      padding-block: 40px;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    @include mobile {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &__text-title {
+    font-size: var(--font-size-title);
+    line-height: 120%;
+    font-family: var(--font-family-title);
+    max-width: 609px;
+    color: var(--color-dark);
+    margin-bottom: 24px;
+    @include mobile {
+      margin-bottom: 14px;
+    }
+  }
+  &__text-desc {
+    max-width: 608px;
+    color: var(--color-gray);
+    line-height: 32px;
+    letter-spacing: -2%;
+    font-size: var(--font-size-desc);
+    margin-bottom: 40px;
+    @include mobile {
+      margin-bottom: 20px;
+    }
+  }
+}

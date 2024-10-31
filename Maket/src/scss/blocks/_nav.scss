@@ -1,0 +1,21 @@
+.header__menu {
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    @include tablet {
+      column-gap: 20px;
+    }
+  }
+  &-link {
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-dark-b);
+    line-height: 20px;
+    font-size: var(--font-size-nav);
+    @include hover {
+      color: var(--color-blue);
+    }
+  }
+}

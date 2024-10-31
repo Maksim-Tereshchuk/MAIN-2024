@@ -1,0 +1,30 @@
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  transition-duration: var(--transition-duration-body);
+  font-family: var(--font-family-main);
+}
+.hidden-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+.hidden-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+.visible-mobile {
+  @include mobile-above {
+    display: none !important;
+  }
+}
+
+.visible-tablet {
+  @include tablet-above {
+    display: none !important;
+  }
+}

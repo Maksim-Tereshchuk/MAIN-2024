@@ -1,0 +1,19 @@
+.header__button {
+  background-color: var(--color-red);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-btn);
+  font-family: var(--font-family-main);
+  transition-duration: var(--transition-duration);
+  @include hover {
+    background-color: var(--color-black);
+    box-shadow: 5px 4px 3px 2px rgba(0, 0, 0, 0.4);
+  }
+  &-link {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    height: 43px;
+    padding-inline: var(--padding-inline);
+    font-weight: 500;
+  }
+}

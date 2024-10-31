@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--color-white);
+  &__section {
+    padding-block: 29px;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include mobile {
+      flex-wrap: wrap;
+      flex-direction: column;
+      row-gap: 80px;
+    }
+  }
+  &__list {
+    display: flex;
+    column-gap: 40px;
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 40px;
+    }
+  }
+}

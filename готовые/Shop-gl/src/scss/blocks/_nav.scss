@@ -1,0 +1,19 @@
+.nav__list {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  @include tablet {
+    column-gap: 15px;
+  }
+  a {
+    font-size: var(--font-size-nav);
+    color: var(--color-gray);
+    transition: all 0.3s;
+    @include hover {
+      color: var(--color-green);
+    }
+    @include tablet {
+      font-size: 1rem;
+    }
+  }
+}

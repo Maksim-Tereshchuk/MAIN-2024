@@ -1,0 +1,150 @@
+.subscription {
+  background-color: var(--color-dark);
+  &__section {
+    padding-block: 140px;
+    @include mobile {
+      padding-block: 80px;
+    }
+  }
+  &__title {
+    font-size: var(--font-size-text);
+    color: var(--color-white);
+    font-weight: 700;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+  &__checkbox {
+    &-desc {
+      font-size: clamp(1.125rem, 1.038rem + 0.38vw, 1.5rem);
+    }
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    position: relative;
+    color: var(--color-white);
+    input[type="checkbox"] {
+      position: relative;
+      width: 104px;
+      height: 52px;
+      outline: none;
+      background-color: var(--color-white);
+      border-radius: 40px;
+      appearance: none;
+      transition: all 0.3s ease;
+      box-shadow: 0px 2px 16px 4px rgba(34, 60, 80, 0.5) inset;
+    }
+
+    input[type="checkbox"]::before {
+      content: "";
+      position: absolute;
+      @include square(36px);
+      background-color: var(--color-bg);
+      border-radius: 50%;
+      top: 9px;
+      left: 10%;
+      transform: translate();
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    input:checked[type="checkbox"]::before {
+      left: 55%;
+    }
+  }
+  &__card-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+  }
+}
+.subscription__body {
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    @include desktop {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 20px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+.subscription__card {
+  width: 360px;
+  min-height: 640px;
+  background-color: var(--color-white);
+  padding: 32px 32px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  &--green {
+    background-color: var(--color-bg);
+  }
+  &-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &-subtitle {
+    font-size: clamp(2rem, 1.942rem + 0.26vw, 2.25rem);
+    margin-bottom: 8px;
+    font-weight: 600;
+    line-height: 100%;
+  }
+  &-desc {
+    line-height: 100%;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #b1b1b1;
+  }
+  &-price {
+    font-size: clamp(3.875rem, 3.846rem + 0.13vw, 4rem);
+    font-weight: 700;
+    span {
+      font-size: 1.125rem;
+      font-weight: 500;
+    }
+  }
+  &-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    &--list {
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+    }
+  }
+  &-btn {
+    margin-top: auto;
+    text-align: center;
+  }
+  &-button {
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    height: 58px;
+    padding-inline: 88px;
+    background-color: var(--color-bg);
+    border-radius: 40px;
+    font-weight: 600;
+    @include hover {
+      background-color: var(--color-dark);
+      color: var(--color-white);
+    }
+  }
+}
+
+.subscription__card-button--black {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  @include hover {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+  }
+}

@@ -1,0 +1,30 @@
+.slider {
+  &__section {
+    padding: 100px 0 160px 0;
+  }
+  &__img-list {
+    display: flex;
+    position: relative;
+  }
+
+  &__img-02 {
+    border-radius: 20px;
+  }
+  &__img-03 {
+    border-radius: 20px;
+  }
+  &__img-item-02 {
+    position: relative;
+    transform: translateY(30px) translateX(-120px);
+  }
+  &__img-item-03 {
+    position: relative;
+    transform: translateY(60px) translateX(-290px);
+  }
+}
+.img-slider {
+  // @include desktop {
+  //   width: 70%;
+  //   height: auto;
+  // }
+}

@@ -1,0 +1,20 @@
+.header__menu {
+  padding-right: 10px;
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 52px;
+    @include tablet {
+      column-gap: 30px;
+    }
+  }
+  &-link.active {
+    color: #000;
+  }
+  &-link {
+    font-size: 1rem;
+    color: #858585;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+  }
+}
